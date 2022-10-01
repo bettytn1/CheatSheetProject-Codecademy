@@ -71,7 +71,7 @@ nav a:hover {
 
 /* headers */
 h2 {
-    margin: auto;
+    margin: 15px;
     padding-top: 10px;
     text-align: center;
 }
@@ -82,14 +82,17 @@ h3 {
 
 
 /*html and html table structure */
-section.container {
-    border: 1px solid #d3b5a0;
-    min-width: 325px;
-    margin: 0 20px;
-    display: inline-block;
-
+#layout {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
 }
 
+section.container {
+    margin: 0px 20px;
+    border: 1px solid #d3b5a0;
+    width: 300px;
+}
 body h3 {
     margin: 0;
 }
