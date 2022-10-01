@@ -1,0 +1,274 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #4C4E52;
+}
+
+/* CSS for the title*/
+.bordercorner_wrap {
+    background-color: #597565;
+    text-align: center; 
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.bordercorner {
+    border: 2px solid #ffffff;
+    box-shadow: 5px 5px #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px  auto;
+    padding: 15px;
+    position: relative;
+    width: auto;
+}
+
+.bordercorner h1 {
+    font-weight: 100;
+    font-family: 'VT323', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+}
+
+
+/* CSS for the navigation*/
+nav {
+    margin: 0 auto;
+    
+}
+
+nav ul {
+    padding: 0px 20px;
+    text-align: center;  
+    padding: 10px;
+    margin: 0
+}
+
+nav li { 
+    list-style-type: none;
+    display: inline;
+    margin: 0px 20px;
+    padding: 5px;
+}
+nav a {
+    color:#597565;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+
+    border-bottom: 2px solid  #597565;
+
+}
+
+/* headers */
+h2 {
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: #d3b5a0
+}
+
+
+/*html and html table structure */
+section.container {
+    border: 1px solid #d3b5a0;
+    min-width: 325px;
+    margin: 0 20px;
+    display: inline-block;
+
+}
+
+body h3 {
+    margin: 0;
+}
+
+.container p {
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px ;
+}
+
+#body, #table {
+    background-color: #d3b5a0;
+}
+
+#header, #thead {
+    background-color: #6a7e8d;
+}
+
+#logo, #nav, #tr1 {
+    background-color: #8ea8bc;
+}
+
+#list, #th {
+    background-color: #b2d2eb;
+}
+
+#main, #tbody {
+    background-color: #597565;
+}
+
+#section, #tr2 {
+    background-color: #7ca48d; 
+}
+
+#article, #td1 {
+    background-color: #a0d3b5;
+}
+
+#aside, #caption {
+    background-color: #6a8d8a; 
+}
+
+#footer, #tfoot {
+    background-color: #8d7ca4;
+}
+
+#tr3 {
+    background-color: #a396b6;
+}
+
+#td2 {
+    background-color: #bab0c8;
+}
+
+
+
+
+/* table */
+table {
+    background-color: #d3b5a0;
+    border-radius: 5px;
+    padding: 10px;
+    display:block;
+    min-width: 350px;
+    max-width: fit-content;
+    margin: 25px auto;
+}
+
+caption {
+    margin-bottom: 15px;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 3px 3px;
+    max-width: fit-content;
+    background-color: #ffffff;
+    padding: 0px 10px;
+}
+
+
+table th{
+    padding: 10px;
+}
+
+#default {
+    cursor: default;
+}
+
+#pointer {
+    cursor: pointer;
+}
+
+#help {
+    cursor: help;
+}
+
+#progress {
+    cursor: progress;
+}
+
+#wait {
+    cursor: wait;
+}
+
+td.action:hover {
+    background-color: #8ea8bc;
+}
+
+/* button css interaction */
+.css {
+    color: #fff;
+    background-color: #597565;
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
+    box-shadow: 2px 2px #fff; 
+    cursor: pointer;
+}
+
+.css:hover {
+    color: #597565;
+    background-color: #fff;
+    border: 1px solid #597565;
+    box-shadow: 2px 2px #597565; 
+}
+
+.css:active {
+    color: #597565;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
+    box-shadow: none; 
+    position: relative;
+    top: 2px; left: 2px;
+
+}
+
+
+.breadcrumb > li {
+    display: inline;
+    }
+  
+  .breadcrumb li+li::before {
+      padding: 10px;
+    content: ">";
+    }
+
+  .breadcrumb a {
+    text-decoration: none;
+    color:#4C4E52;
+    }
+
+    .breadcrumb a:hover {
+    color: #d3b5a0;
+
+    }
+
+
+
+
+
+
+/* footer */
+footer {
+    margin: 0 auto;
+    background-color: #597565;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer p {
+    text-align: center;
+}

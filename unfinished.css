@@ -1,0 +1,25 @@
+.unfinished {
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.unfinished p {
+    padding: 10px;
+    border:  3px solid #597565;;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    margin-bottom: 0; 
+    font-family: 'VT323', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+img {
+    width: 500px;
+    border: 3px solid #597565;
+    margin-bottom: 215px;
+}
+
